@@ -5,9 +5,9 @@ import numpy as np
 from PIL import Image
 
 # Initializing paths
-train_folder =  'C:/Users/Mi Notebook/Desktop/facedata/Train/'
-test_folder = 'C:/Users/Mi Notebook/Desktop/facedata/Test/temp.jpg'
-face_cascade = cv2.CascadeClassifier('C:/Users/Mi Notebook/Downloads/haarcascade_frontalface_alt2.xml')
+train_folder =  'D:/final year project/backend/New folder/'
+test_folder = 'd:/final year project/backend/temp.jpg'
+face_cascade = cv2.CascadeClassifier('d:/final year project/backend/xml/haarcascade_frontalface_alt2.xml')
 
 cam = cv2.VideoCapture(0) # Creating camera object
 
