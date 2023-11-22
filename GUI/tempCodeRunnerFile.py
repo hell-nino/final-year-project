@@ -1,1 +1,0 @@
-font=('Bold', 12), bg='#1877f2', fg='white', width=15
