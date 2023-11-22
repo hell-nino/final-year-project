@@ -1,0 +1,6 @@
+opencv
+pillow
+pandas
+datetime
+numpy
+pyqt5
