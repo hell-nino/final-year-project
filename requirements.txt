@@ -1,6 +1,6 @@
-opencv
-pillow
-pandas
-datetime
-numpy
-pyqt5
+opencv==4.8.1.78
+pillow==9.0.1
+pandas==2.1.3
+datetime==5.3
+numpy==1.26.2
+pyqt5==5.15.10
