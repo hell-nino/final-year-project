@@ -340,31 +340,30 @@ class Ui_detailWindow(object):
         time = self.timeMenu.currentText().replace(' ','')
         day = str(datetime.now().day)
         month = str(datetime.now().month)
-        match month:
-            case '1':
-                month = 'Jan'
-            case '2':
-                month = 'Feb'
-            case '3':
-                month = 'Mar'
-            case '4':
-                month = 'Apr'
-            case '5':
-                month = 'May'
-            case '6':
-                month = 'Jun'
-            case '7':
-                month = 'Jul'
-            case '8':
-                month = 'Aug'
-            case '9':
-                month = 'Sep'
-            case '10':
-                month = 'Oct'
-            case '11':
-                month = 'Nov'
-            case '12':
-                month = 'Dec'
+        if month=='1':
+            month = 'Jan'
+        elif month=='2':
+            month = 'Feb'
+        elif month=='3':
+            month = 'Mar'
+        elif month=='4':
+            month = 'Apr'
+        elif month=='5':
+            month = 'May'
+        elif month=='6':
+            month = 'Jun'
+        elif month=='7':
+            month = 'Jul'
+        elif month=='8':
+            month = 'Aug'
+        elif month=='9':
+            month = 'Sep'
+        elif month=='10':
+            month = 'Oct'
+        elif month=='11':
+            month = 'Nov'
+        elif month=='12':
+            month = 'Dec'
         date = day +'-'+ month
         col = date +' '+ time
         path = master_path + 'Attendance/' + sub + '.xlsx'
